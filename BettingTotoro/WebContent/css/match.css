@@ -1,0 +1,173 @@
+@charset "UTF-8";
+section{
+    width: 90%;
+    height: 1000px;
+    float: left;
+}
+#backgroundimg{
+    width: 870px;
+    height: 835px;
+    opacity: 0.5;
+    position: absolute;
+    
+}
+
+.Bettingmiddle{
+    width: 918px;
+    height: 0px;
+    position: relative;
+    
+}
+#MatchListTable1 {
+    display: inline-block;
+    position: relative;
+    width:760px;
+    height: 20px;
+    color: black;
+    padding: 20px;
+    padding-bottom: 30px;
+    /* text-align: center; */
+    margin-top: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    left: 40px;
+    
+}
+#MatchListTable2 {
+    display: inline-block;
+    position: relative;
+    width:800px;
+    min-height: 400px;
+    margin-top: 50px;
+    left: 35px;	
+}
+table#tbl-match {
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid white;
+    border-collapse: collapse;
+    clear: both;
+    margin-top: 30px;
+    
+}
+table#tbl-match td a{
+     padding: 5px 0;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+    font-size: 15px;
+       font-weight: inherit;
+    color: #0a0000;
+}
+table#tbl-match td a:hover{
+    color: greenyellow;
+}
+table#tbl-match th, table#tbl-match td{	
+	border: 1.5px solid;
+    padding: 5px 0;
+    text-align: center;
+    color: #080808;
+}
+#btn-add{
+  float: right;
+    margin: 0 0 15px;
+    margin-right: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 70px;
+    height: 30px;
+    background-color: rgba(164, 245, 102, 0.66);
+    border: 1px double rgb(63, 15, 15);
+    color: #131313db;
+    border-radius: 4%;
+    font-weight: unset;
+}
+div#search-container{
+    margin: 0 0 10px 0;
+    padding: 3px;
+    float: left;
+    color: #25242494;
+}
+div#search-teamName{
+    display: inline-block;
+}
+div#search-sportsType{
+    display: none;
+}
+div#search-bettingAll{
+    display: none;
+}
+div#search-container .submit-btn{
+    width: 70px;
+    height: 30px;
+    background-color: #edead380;
+    color: #000000a6;
+    border: none;
+    border-radius: 4%;
+    font-weight: bold;
+    padding: 0px;
+    
+}
+div#search-container input{
+    width: 250px;
+    height: 32px;
+    background-color: #d6d6d640;
+    border: none;
+    border-radius: 4%;
+    padding-left: 10px;
+    color: #080808c7;
+    padding-top: 2px;
+}
+div#search-container input::placeholder{
+    padding-left: 20px;
+    font-size: 14px;
+}
+#searchType{
+  background-color: #d3d6d680;
+    color: #5d5a5a;
+    border: none;
+    width: 70px;
+    height: 29px;
+}
+div#numPerPage-container{
+    /* float:right;
+    margin-left: 108px; */
+    display: inline-block;
+    position: absolute;
+    right: -10px;
+    top:23px;
+}
+div#numPerPage-container select{
+  background-color: #e3e2e430;
+    color: #020202c7;
+    border: none;
+    height: 29px;
+    width: 40px;
+}
+div#numPerPage-container form{
+    display: inline;
+}
+table#UserList-board td a:hover{
+    color: greenyellow;
+}
+/*페이지바*/
+div#pageBar{
+    margin-top: 20px;
+    text-align: center;
+    
+/*  background-color: rgba(0,188,212,0.3); */
+}
+div#pageBar span.cPage{
+    color: #007bff;
+    margin-right: 10px;
+}
+div#pageBar a{
+    margin-right: 10px;
+    color:black;
+    font-weight: bold;
+}
+.select:hover{
+    background-color: #dee2e6;
+    cursor: pointer;
+
+}

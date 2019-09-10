@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+section{
+    width: 90%;
+    height: 1000px;
+    float: left;
+}
+#HelpTable{
+	display: inline-block;
+	position: relative;
+	left: 35px;
+	width:800px;
+	min-height: 400px;
+	margin-top: 80px;
+}
+#HelpTable h2{
+	text-align: center;
+	padding-left: 70px;
+}
+.thead-dark>tr th{
+	color:black !important;
+    background-color: #ffeeba !important;
+    border-color: #ffeeba !important;
+    letter-spacing: 5px !important;
+    text-align: center;
+    height: 46px
+}
+
+#HelpTable>table th, td{
+    text-align: center;
+}
+#HelpTable>table td:first-child{
+	width: 80px;       
+}
+.question{
+    height: 30px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+}
+.question:hover{
+	color: orange;
+}
+p{	
+    display: none;
+    background-color: #ffeeba;
+    border: none;
+    margin:0px;
+}

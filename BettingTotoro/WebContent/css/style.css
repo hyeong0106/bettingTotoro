@@ -1,0 +1,205 @@
+@CHARSET "UTF-8";
+#container{
+    position: relative;
+    left: 5px;
+    top: 5px;
+    width: 1024px;
+    height: 1127px;  
+    font-family: 'Jua', sans-serif;
+   
+}
+/* header 설정 */
+header{
+    width: 85%;
+    height: 290px;
+    float: left;
+}
+/* header의 title-bar영역 */
+#title-bar{
+    width: 100%;
+    height: 240px;
+    background-color: black;
+    color: white;
+    
+}
+#title-bar .left-div{
+    height: 100%;
+    width: 20%;
+    float: left;
+}
+#title-bar .left-div img{
+    height: 100%;
+    width: 128%;
+    position: relative;
+    right: 8px;
+    top:15px;
+}
+#title-bar .right-div{
+    height: 100%;
+    width: 80%;
+    float: right;
+}
+/* header의 menu-bar영역 */
+#menu-bar{
+    clear: both;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    padding-left: 160px;
+    
+}
+#menu-bar ul{
+    margin: 0px;
+}
+#menu-bar ul li{
+    list-style: none;
+    float: left;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+   
+}
+#menu-bar .menuLink{
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: white;
+}
+/* header의 login-bar영역 */
+.right-div #login-bar{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.right-div #login-bar input{
+    width: 130px;
+    height: 30px;
+    border: none;
+    border-radius: 4%;
+}
+#login-bar #input-id{
+    position: relative;
+    left: 400px;
+    top:57px;
+}
+#login-bar #input-pwd{
+    position: relative;
+    left: 265px;
+    top: 97px;
+}
+#login-bar #login-btn{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    left: 270px;
+    top: 77px;
+}
+#login-bar #signup-btn{
+    position: relative;
+    width: 80px;
+    top: 17px;
+    left: 190px;
+}
+#login-bar #saveid{
+    width: 13px;
+    height: 13px;
+    position: relative;
+    left: 410px;
+    bottom: 28px;
+}
+#login-bar #search-id{
+    position: relative;
+    top: 95px;
+    left : 420px;
+    font-size : 16px;
+    color: yellowgreen;
+}
+#login-bar #search-pwd{
+    position: relative;
+    top: 95px;
+    left : 437px;
+    font-size : 16px;
+    color: yellowgreen;
+}
+#login-bar #labelid{
+    position: relative;
+    left: 410px;
+    bottom: 29px;
+}
+#login-bar *{
+   margin: 0px;
+   padding: 0px;
+    
+}
+.right-div #login-bar input::placeholder{
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 17px;
+}
+#Login-table{
+    position: relative;
+    top: 30px;
+    left: 300px;
+    border: 2px solid white;
+    table-layout: auto;
+   
+}
+#Login-table img{
+    width: 50px;
+    height: 40px;
+}
+#Login-table td{
+    font-size: 20px;
+    width: 380px;
+    height: 60px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    
+}
+/* section 설정 */
+section{
+    width: 85%;
+    height: 835px;
+    float: left;
+}
+/* aside 설정 */
+aside{
+    width: 102px;
+    height: 550px;
+    float: right;
+    position: fixed;
+    left: 878px;
+    top: 50px;
+    background-color: white;
+}
+aside .asideDiv{
+    width: 100%;
+    height: 95px;
+    text-align: center;
+}
+aside #num1Div{
+    width: 100%;
+    height: 60px;
+}
+aside .asideDiv img{
+    width: 75%;
+    height: 75%;
+    margin: 0px;
+}
+aside .asideDiv label{
+    color:black;
+    font-size: 15px;
+}
+/* footer 설정 */
+footer{
+    width: 85%;
+    height: 150px;
+    clear: both;
+    background-color: lightgray;
+}
+#Login-table input[type=button]{
+   width : 100px;
+}

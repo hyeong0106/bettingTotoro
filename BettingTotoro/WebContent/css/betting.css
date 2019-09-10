@@ -1,0 +1,277 @@
+@charset "UTF-8";
+/* section 설정 */
+section{
+    width: 90%;
+    float: left;
+}
+/*///////////////////////////bettingList////////////////////////////*/
+#BettingListTable2 label,#BettingListTable2 input{
+    margin-top: 10px;
+}
+.table2_input2,.table2_input3{
+    position:relative;
+    display: none;
+    left: 20px;
+}
+#BettingListTable2 {
+    display: inline-block;
+    position: relative;
+    left: 33px;
+    width: 800px;
+    min-height: 190px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #454d55;
+    border-collapse: collapse;
+}
+table#Betting-table{
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+#Betting-table select{
+     padding-bottom: 5px;
+}
+#Betting-table tr{
+     vertical-align: middle;
+     text-align: center;
+}
+.moveRight>label{
+    margin-left: 40px;
+}
+#BettingListTable3 {
+    display: inline-block;
+    position: relative;
+    left: 35px;
+    width: 800px;
+    height: 350px;
+}
+.thead-dark>tr th, .thead-dark>tr td{
+    text-align: center;
+}
+.betting-table th, .betting-table td {
+    border-bottom: 1px solid #444444;
+    padding: 10px;
+  }
+.betting-table tr{
+     text-align: center;
+}
+.BettingListStrapline{
+    position: relative;
+    padding-top: 50px;
+    text-align: center;
+}
+#button-container{
+    padding-top: 30px;
+    text-align: center;
+}
+/*///////////////////////////bettingView////////////////////////////*/
+#BettingViewTable1 {
+    margin-top:20px;
+    margin-left:30px;
+    float:left;
+}
+#BettingViewTable2 {
+    margin-top: 80px;
+    margin-left:30px;
+    display: inline-block;
+}
+.BettingViewStrapline{
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 4px;
+ }
+.input-group #money{
+    width: 150px !important;
+}
+#button-addon2{
+    margin-left: 300px;
+    margin-top: 10px;
+    
+}
+/*///////////////////////////bettingView2////////////////////////////*/
+ #BettingView2Table1 {
+    display: inline-block;
+    position: relative;
+    left: 60px;
+    width:800px;
+    height: 220px;
+    background-color: #0d1a23;
+}
+#BettingView2Table2 {
+    display: inline-block;
+    position: relative;
+    left: 60px;
+    top: -100px;
+    width:800px;
+    height: 220px;
+    background-color: #0d1a23;
+    margin-top: 100px;
+}
+#BettingView2Table3 {
+    display: inline-block;
+    position: relative;
+    left: 60px;
+    top: -200px;
+    width: 800px;
+    height: 220px;
+    background-color: #0d1a23;
+    margin-top: 100px;
+    
+}
+.BettingView2Strapline{
+    color: greenyellow;
+    position: relative;
+    text-align: center;
+}
+#result-submit,#betting-remove{
+   position: relative;
+   left: 240px;
+    top: -167px;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 4px;
+    cursor: pointer;
+    background-color: rgb(10, 43, 19);
+    border: 4px solid rgb(63, 15, 15);
+    border-radius:17px 17px 17px 17px;
+    width: 200px;
+    height: 45px;
+    color: white;
+}
+.team-icon{
+    width: 200px; 
+    height: 200px;
+}
+#BettingView2Table1 div, #BettingView2Table2 div, #BettingView2Table3 div{
+    width: 220px;
+    height: 215px;
+    position: relative;
+    left: 580px;
+    top: -200px;
+    color: white;
+    border-left: 3px dashed #57656d;
+    text-align: center;
+}
+/*페이지바*/
+div#pageBar{
+    margin-top: 20px;
+    text-align: center;
+    
+/*  background-color: rgba(0,188,212,0.3); */
+}
+div#pageBar span.cPage{
+    color: red;
+    margin-right: 10px;
+}
+div#pageBar a{
+    margin-right: 10px;
+    color:black;
+    font-weight: bold;
+} 
+/*///////////////////////////bettingResultInsert////////////////////////////*/
+#BettingResultInsertTable1{
+    margin-top:20px;
+    margin-left:30px;
+    float:left;
+}
+#button-submit{
+    text-align: center;
+    margin-top: 47px;
+}
+.card{
+    width: 185px !important;
+    height: 330px;
+    margin:10px;
+    
+}
+.BettingResultInsertStrapline{
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    
+}
+.card-img-top{
+    width: 180px !important;
+    height: 160px;
+    margin: 0 auto;
+}
+.list-group-item{
+    width: 183px !important;
+    padding: 10px !important;
+}
+#vs{
+    font-size:50px;
+}
+#BettingResultInsertTable2 {
+    display: inline-block;
+    margin-top:30px;
+    margin-left: 119px;
+    
+    width: 240px;
+    height: 720px;
+    /*
+    border: 5px ridge rgb(63, 15, 15); */
+}
+#BettingResultInsertTable2> p{
+    font-size: 24px; 
+    position: relative; 
+    left: 20px;
+}
+#BettingResultInsertTable2> span{
+    position: relative; 
+    left: 25px;
+}
+.matchNum{
+    width:50px !important;
+    padding:0px !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+}
+#button-container{
+    text-align: center;
+}
+#character{
+    width: 362px;    
+    position: relative;
+    left: 477px;
+}
+.bettingbackground{
+        width: 870px;
+    height: 784px;
+  /*   background-color: red; */
+    position: relative;
+}
+#imgbackground{
+    position: absolute;
+    /* opacity: 0.6; */
+    width: 857px;
+    z-index: 1;
+}
+.pageBar{
+    text-align: center;
+}
+#Home{
+    position: absolute;
+    width: 180px;
+    height: 100px;
+    top: 151px;
+    left: 204px;
+    z-index: 1;
+}
+#Draw{
+    position: absolute;
+    width: 197px;
+    height: 128px;
+    top: 63px;
+    left: 324px;
+    z-index: 1;
+}
+#Away{
+    position: absolute;
+    width: 180px;
+    height: 100px;
+    top: 141px;
+    left: 460px;
+    z-index: 1;
+}

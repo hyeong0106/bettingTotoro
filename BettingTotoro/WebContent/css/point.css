@@ -1,0 +1,241 @@
+	@charset "UTF-8";
+
+#userPointDiv{
+	
+    position: relative;
+	width: 400px;
+	height: 40px;
+	font-size: 25px;
+    left: 245px;
+    top: 30px;
+    text-align: center;
+	background-color: white;
+	border-radius: 30px;
+	border: 1px solid #dfe1e5;
+	box-shadow: 1px 1px 4px #d39e00;
+	
+}
+#insertBtnDiv{
+    position: relative;
+    width: 800px;
+    height: 40px;
+    left: 55px;
+    top: 45px;
+    text-align: center;
+    
+}
+#insertBtnDiv button{
+
+    width: 100px;
+    height: 45px;
+    left: 55px;
+    top: 100px;
+    border: 0px;
+    margin: 0px;
+    color: black;
+    font-size: 16px;
+    background-color: #ffc109;
+}
+#itemTypeDiv{
+    width: 800px;
+    height: 45px;
+    position: relative;
+    left: 40px;
+    top: 60px;
+}
+
+#itemTypeDiv button{
+    width: 100px;
+    height: 45px;
+    left: 55px;
+    top: 100px;
+    border: 0px;
+    margin: 0px;
+    color: #0d1a23;
+}
+#PointShopDiv{
+	background : white;
+	width: 800px;
+	height: 800px;
+    position: relative;
+    left: 40px;
+    top : 60px;
+    border: 5px solid #d39e00;
+    border-radius: 8px;
+}
+#PointShopDiv table td{
+	border: 2px double #d39e00;
+	
+}
+#PointShopDiv > div{
+    border: 2px double #d39e00;
+    width: 242px;
+    height: 230px;
+    margin-top: 20px;
+    margin-left: 14px;
+    display: inline-block;
+}
+#PointShopDiv #leftDiv{
+	position: relative;
+	top: 40px;
+	width:50%;
+	height:60%;
+	float:left;
+}
+#PointShopDiv #rightDiv{
+	position: relative;
+	top: 20px;
+	width:50%;
+	height:80%;
+	float:right;
+}
+#PointShopDiv img{
+    width: 100%;
+    height: 100%;
+    top: 10px;
+    left: 0px;
+    border-radius: 30%;
+}
+#PointShopDiv #rightDiv *{
+	position: relative;
+}
+#PointShopDiv #rightDiv .itemName{
+    color: black;
+    top: 10px;
+    left: 15px;
+    font-size: 15px;
+    position: absolute;
+}
+#PointShopDiv #rightDiv .Price{
+    color: black;
+    top: 80px;
+    left: 15px;
+    font-size: 15px;
+    position: absolute;
+}
+
+#PointShopDiv #rightDiv .btn-warning{
+	position: relative;
+	top: 140px;
+}
+#insertItemDiv {
+    background : #0d1a23;
+	width: 800px;
+	height: 800px;
+    position: relative;
+    left: 55px;
+    top : 100px;
+	text-align: center;
+}
+#insertItemDiv form {
+	width: 800px;
+    height: 500px;
+}
+
+.insertItemTable{
+    width: 70%;
+    height: 400px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    left: 120px;
+    top: 100px;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+.insertItemTable th, .insertItemTable td{
+    border: 1px solid white;
+}
+#informationMiddleDiv{
+    width:280px;
+    height: 202px;
+    border-top: 5px solid #d39e00;
+    border-left: 5px solid #d39e00;
+    border-right: 5px solid #d39e00;
+    
+}
+#informationMiddleDiv #leftDiv{
+    width: 130px;
+    height: 180px;
+    float: left;
+    text-align: center;
+}
+#informationMiddleDiv img{
+	border: 2px solid lightgray;
+	border-radius: 30%;
+    margin-top: 25px;
+    margin-left: 5px;
+    width: 130px;
+    height: 140px;
+}
+#informationMiddleDiv #rightDiv{
+    width: 130px;
+    height: 190px;
+    float: right;
+}
+#informationMiddleDiv table, #informationMiddleDiv td{
+    border-collapse: collapse;
+    text-align: center;
+    position: relative;
+    color: black;
+    border: 2px solid lightgray;
+    font-size: 12px;
+    margin-top : 2px;
+    right: 3px;
+    
+}
+#informationMiddleDiv table textarea{
+    border: 0px;
+    color: black;
+    font-size: 12px;
+}
+#informationFooterDiv{
+    width:280px;
+    height: 40px;
+    text-align: center;
+    border-bottom: 5px solid #d39e00;
+    border-left: 5px solid #d39e00;
+    border-right: 5px solid #d39e00;
+    
+}
+#informationFooterDiv button{
+    border: 0px;
+    width: 50px;
+    height: 30px;
+    font-size: 13px;
+    background-color:#d39e00;
+    border-radius: 7%; 
+}
+/* 룰렛 팝업창*/
+#itemStartDiv{
+	background: #ffc924;
+	width:785px;
+	height: 100px;
+	text-align: center;
+	border: 5px solid #ffc924;
+}
+#itemStartDiv label{
+	position: relative;
+	top: 20px;
+	font-weight: bold;
+	font-size: 40px;
+	
+}
+#itemStartMidDiv{
+	width:785px;
+	height: 470px;
+	border-left: 5px solid #ffc924;
+	border-right: 5px solid #ffc924;
+	border-bottom: 5px solid #ffc924;
+}
+#itemStartMidDiv #firstLabel{
+	position: relative;
+	color: purple;
+	font-weight: bolder;
+	font-size: 20px;
+	left: 420px;
+	bottom: 450px;
+}
+
+
